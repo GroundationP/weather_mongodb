@@ -3,8 +3,8 @@ import requests
 from datetime import datetime
 from pymongo import MongoClient
 
-KEY = "d9ba4c2a667010dd354052fa57ec71a8"
-client = MongoClient(host="localhost", port=27017, username="datascientest", password="dst123")
+KEY = "test"
+client = MongoClient(host="localhost", port=27017, username="ls", password="pw")
 
 def make_data(city):
     """extracting weather and main only"""
